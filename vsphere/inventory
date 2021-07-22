@@ -1,0 +1,30 @@
+
+all:
+
+
+  hosts:
+    node1
+  address:
+    10.10.14.9
+  node-type:   kuku 
+
+
+  hosts:
+    node2
+  address:
+    10.10.14.10
+  node-type:   kuku 
+
+
+  hosts:
+    node3
+  address:
+    10.10.14.11
+  node-type:  riku 
+
+
+
+
+
+
+

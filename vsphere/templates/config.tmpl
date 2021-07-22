@@ -1,0 +1,17 @@
+
+all:
+%{ for node_key, node_value in cluster_nodes }
+
+  hosts:
+    ${node_value.name}
+  address:
+    ${node_value.ip}
+  node-type: %{ if node_value.node_type  }  kuku %{ else } riku %{ endif }
+%{ endfor ~}
+
+
+
+
+
+
+
